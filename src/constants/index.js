@@ -13,4 +13,11 @@ export const Marcas = [
   },
 ];
 
-const YearMax = new Date().getFullYear
+const YearMax = new Date().getFullYear()
+
+export const Years = Array.from( new Array(20), (valor, index) => YearMax - index)
+
+export const Planes = [
+  {id: 1, nombre:"Basico" },
+  {id:2, nombre:"Completo" }
+];
